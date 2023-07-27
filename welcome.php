@@ -45,7 +45,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 	<h1>Welcome to JukaneHub<br>Where we value your Outfit.</h1>
 	<p>
 		Order your favourite Shirt, Dress, Trouser and shoes<br> at an affordable price</p>
-<a href="login.html"class="btn">Explore Now &#8594;</a>
+<a href="products.html"class="btn">View more &#8594;</a>
 </div class="col-2">
 <img src="airforce4.jpeg">
 </div>
