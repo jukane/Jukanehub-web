@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log out</title>
+</head>
+<body>
+    <h1>Thank you for visiting Jukanehub</h1>
+    <button id="reset-password">Reset password</button>
+    
+    <button id="logoutBtn">Logout</button>
+
+   
+    <script>
+        
+        document.getElementById('logoutBtn').addEventListener('click', function() {
+           
+            window.location.href = 'logout.php';
+        });
+        document.getElementById('reset-password').addEventListener('click', function() {
+           
+           window.location.href = 'reset-password.php';
+       });  
+    </script>
+</body>
+</html>
